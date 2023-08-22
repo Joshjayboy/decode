@@ -158,7 +158,7 @@ const land = () => {
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                   href="/homepage"
+                  href="/homepage"
                   className="rounded-full bg-main bg-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Join Our Waitlist
@@ -333,12 +333,15 @@ const land = () => {
       </div>
       <div className="w-full flex justify-center mt-10">
         <div className="text-center">
-          <div className="font-bold text-48px">Experience The Innovation</div>
-          <div className="font-normal">
+          <div className="font-bold text-48px mb-5">Experience The Innovation</div>
+          <div className="font-normal mb-5">
             Cutting-edge web3.0 project management Saas that leverage blockchain
             technology to revolutioize project collaboration and management
           </div>
-          <a href="/homepage" className="rounded-full bg-main text-white m-5">
+          <a
+            href="/homepage"
+            className="mt-5 rounded-full bg-main bg-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          >
             Join Our Waitlist
           </a>
         </div>
