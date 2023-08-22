@@ -56,10 +56,10 @@ const land = () => {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a
-              // href="/"
+              href="/homepage"
               className="rounded-full bg-main bg-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-              {/* <Link href="/homepage"> Join Our Waitlist</Link> */}
+              Join Our Waitlist
             </a>
           </div>
         </nav>
@@ -104,10 +104,10 @@ const land = () => {
                 </div>
                 <div className="py-6">
                   <a
-                    // href="#"
+                    href="/homepage"
                     className="rounded-full bg-main bg-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
-                    <Link href="/homepage"> Join Our Waitlist</Link>
+                    Join Our Waitlist
                   </a>
                 </div>
               </div>
@@ -158,7 +158,7 @@ const land = () => {
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                  // href="#"
+                   href="/homepage"
                   className="rounded-full bg-main bg-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Join Our Waitlist
@@ -338,9 +338,9 @@ const land = () => {
             Cutting-edge web3.0 project management Saas that leverage blockchain
             technology to revolutioize project collaboration and management
           </div>
-          {/* <a className="rounded-full bg-main text-white m-5">
+          <a href="/homepage" className="rounded-full bg-main text-white m-5">
             Join Our Waitlist
-          </a> */}
+          </a>
         </div>
       </div>
 
