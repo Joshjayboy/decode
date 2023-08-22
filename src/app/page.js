@@ -10,9 +10,9 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const land = () => {
   const navigation = [
-    { name: "Why Decolab?", href: "#" },
-    { name: "Features", href: "#" },
-    { name: "Integrations", href: "#" },
+    { name: "Why Decolab?", href: "/about" },
+    { name: "Features", href: "features" },
+    { name: "Integrations", href: "integrations" },
   ];
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
